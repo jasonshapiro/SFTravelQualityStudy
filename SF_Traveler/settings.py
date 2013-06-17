@@ -9,7 +9,9 @@ ADMINS = ('jason','jason.g.shapiro@gmai.com'
 
 MANAGERS = ADMINS
 
-DATABASES = {}
+DATABASES = {
+             'default': {}
+}
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -101,10 +103,10 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
+#    'django.contrib.auth',
+#    'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.sites',
+#    'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gunicorn',
