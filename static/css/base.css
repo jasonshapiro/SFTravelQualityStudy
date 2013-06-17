@@ -1,0 +1,125 @@
+body {
+	background-color: #f5f5f5;
+}
+
+.header {
+	background-color: white;
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+}
+
+#logoimg {
+	width: 50px;
+	height: 50px;
+	margin: 5px 25px;
+}
+
+.navmenu {
+	float: left;
+}
+
+.navitem {
+	padding: 20px 10px 3px 10px;
+	margin: 0 10px;
+	float: left;
+	list-style:none;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.navitem:hover {
+	border-bottom: 5px solid blue;
+}
+
+.navmenu a {
+	text-decoration:none;
+}
+
+.navmenu a:hover {
+	text-decoration:none;	
+}
+
+#homebutton {
+	float:left;
+}
+
+#title {
+	float:left;
+	color: #1b4a79;
+}
+
+#title:hover {
+	text-decoration:none;
+}
+
+
+
+/*  CONTENT  */
+
+
+
+.content {
+	width: 1020px;
+	margin: 0 auto;
+	height: 660px;
+}
+
+#splashimg {
+	width: 1040px;
+	height: 400px;
+	background-image: url('/static/img/sf_banner.jpg');
+}
+
+.overlaytext {
+	margin-left: 20px;
+	text-shadow: black 1px 1px 3px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.mediumtext{
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+
+.box {
+	padding: 2px 10px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); 
+	box-shadow: 3px 3px 10px
+}
+
+.box h5 {
+	text-align: center;
+}
+
+.linkbox {
+	padding: 5px 15px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #dadada;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); 
+	box-shadow: 3px 3px 10px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.linkbox:hover {
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+	box-shadow: 3px 3px 10px;
+}

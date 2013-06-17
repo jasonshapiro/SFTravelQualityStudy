@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<title>{% block title %} SF Travel Quality Study {% endblock %}</title>
+		<meta name="author" content="Jason Shapiro" />
+		
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
+
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		
+		{% block head %} {% endblock head %}
+		
+	</head>
+	<body>
+	
+	<div class="row-fluid header">
+		<a href="/">
+		<div id="logobox" class="span1"> <img id="logoimg" src="/static/img/berkeleylogo.png"> </div>
+		<div id="titlebox" class="span4"> <h2 id="title"> SF Travel Quality Study </h2> </div>
+		</a>
+		<div id="navmenubox" class="span5 offset2">
+		<ul class="navmenu">
+			<a href="/instructions/"> <li class="navitem"> Instructions </li> </a>
+			<a href="/about/"> <li class="navitem"> The Study </li> </a>
+			<a href="/team/"> <li class="navitem"> The Team </li> </a>
+		</ul>
+		</div>
+	</div>
+	
+	<div class="content">
+{% block content %} {% endblock content %}
+	</div>
+	
+	</body>
+</html>
