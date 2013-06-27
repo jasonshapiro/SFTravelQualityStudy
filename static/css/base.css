@@ -7,31 +7,47 @@ body {
 	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
 	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
-	margin-bottom: 20px;
+	margin: 0 auto 20px auto;
 }
 
-#logoimg {
-	width: 50px;
-	height: 50px;
-	margin: 5px 25px;
+#logobox {
+	background:url("/static/img/berkeleylogo.png") no-repeat center center;
+	height: 60px;
 }
 
 .navmenu {
+	width:260px;
+	display: inline-block;
 	float: left;
 }
 
-.navitem {
-	padding: 20px 10px 3px 10px;
-	margin: 0 10px;
+.navlist {
+	margin:0;
+}
+
+.navlist a {
+	width: 230px;
+	margin: 0 0 20px 0;
+	padding: 20px 0;
 	float: left;
 	list-style:none;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
-	font-size: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.8em;
 	font-weight: bold;
+	background-color: white;
+	text-align: center;	
+	-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+	box-shadow: black 0px 2px 5px;
 }
 
-.navitem:hover {
-	border-bottom: 5px solid blue;
+.navlist a:hover {
+	background-color: #08c;
+	color: white;
+}
+
+.navlist a:hover li {
+	font-color: white;
 }
 
 .navmenu a {
@@ -62,29 +78,64 @@ body {
 
 
 .content {
-	width: 1020px;
+	float: right;
+}
+
+
+/* INDEX */
+
+#wrapper {
+	width: 1200px;
 	margin: 0 auto;
-	height: 660px;
+	display: block;
+	position: relative;
 }
 
 #splashimg {
-	width: 1040px;
-	height: 400px;
-	background-image: url('/static/img/sf_banner.jpg');
+	height: 525px;
+	background-image: url('/static/img/splash.jpg');
+	position: relative;
+}
+
+#splashbanner {
+	position: absolute;
+	bottom: 30px;
+}
+
+.graybackground {
+	position: absolute;
+	bottom: 25px;
+	height: 150px;
+	width: 940px;
+	background-color: black;
+	opacity: .6;
+}
+
+#welcomemessage {
+	line-height: 1;
 }
 
 .overlaytext {
-	margin-left: 20px;
-	text-shadow: black 1px 1px 3px;
+	text-shadow: 0px 0px 7px black;
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
 	letter-spacing: 1px;
+	text-align: center;
+	font-size: 2.7em;
 }
 
 .mediumtext{
-	font-weight: 600;
 	letter-spacing: 0px;
+	font-size: 1.3em;
+}
+
+/* BASE */
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
+	box-shadow: 0px 0px 15px;
 }
 
 .box {
@@ -122,4 +173,18 @@ body {
 	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
 	box-shadow: 3px 3px 10px;
+}
+
+.centertext h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+}
+
+
+.footer {
+	width: 1200px;
+	margin: 20px auto 0 auto;
+	padding-top: 5px;
+	border-top: 2px solid gray;
+	text-align: center;
+	float: right;
 }
