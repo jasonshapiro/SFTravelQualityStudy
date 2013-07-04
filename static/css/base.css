@@ -175,6 +175,16 @@ body {
 	box-shadow: 3px 3px 10px;
 }
 
+.surveybox {
+	height: 400px;
+	width: 650px;
+}
+
+.centerimg {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
 .centertext h1,h2,h3,h4,h5,h6 {
 	text-align: center;
 }

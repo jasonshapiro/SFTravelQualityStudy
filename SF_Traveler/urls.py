@@ -13,6 +13,7 @@ urlpatterns = patterns('',
     (r'^privacy/$', 'info.views.privacy'),
     (r'^newtomuni/$', 'info.views.new_to_muni'),
     (r'^signup/$', 'info.views.signup'),
+    (r'^survey/$', 'info.views.survey'),
     
     
     # Examples:

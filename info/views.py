@@ -29,3 +29,7 @@ def new_to_muni(request):
 def signup(request):
 	
 	return render_to_response('signup.html',context_instance=RequestContext(request))
+
+def survey(request):
+	
+	return render_to_response('survey.html',context_instance=RequestContext(request))
