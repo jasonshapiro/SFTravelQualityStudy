@@ -1,20 +1,26 @@
 {% extends "base.html" %}
 
-{% block title %} The Research Team {% endblock title %}
+{% block title %} Meet the Researchers {% endblock title %}
 
 
 {% block content %}
 
 	<div class='row'>
-		<div class='span4 offset4'>
-			<h2> The Team </h2>
+		<div class='span6 offset3'>
+			<h2> Meet the Researchers </h2>
 		</div>
 	</div>
 
+	<div class='row spacing'>
+		<div class='box' style="display:inline-block; float:left; margin-left: 20px;"> <img style="height: 180px;" class="centerimg" src="/static/img/andre.jpg"> </div> <div class="span10" style="float:left;"> <h4 class="left"> Andre Carrel </h4> <p> Andre Carrel is a Ph.D. candidate in the Department of Civil and Environmental Engineering at UC Berkeley, and he is the lead researcher conducting the San Francisco Travel Quality study. A graduate of MIT and ETH Zurich, Andre has previously worked with Transport for London and Deutsche Bahn, the German national rail operator. He is focusing on understanding the complex relationships between transit reliability, the quality of transit services, traveler satisfaction and transit ridership, with the goal of gaining concrete insights into how to best improve public transportation in San Francisco and other major US cities. </p> </div>
+	</div>
+
+	<div class='row spacing'>
+		<div class='box' style="display:inline-block; float:left; margin-left: 20px;"> <img class="centerimg" src="/static/img/joan.jpg"> </div> <div class="span10"> <h4 class="left"> Joan Walker </h4> <p> Prof. Joan Walker is Associate Professor in the Department of Civil and Environmental Engineering and a member of the interdisciplinary Global Metropolitan Studies initiative. Her research focus is behavioral modeling, with an expertise in travel behavior, where she works to improve the models that are used for transportation planning, policy, and operations. She received her Bachelor's degree in Civil Engineering from UC Berkeley and her Master's and PhD degrees in Civil and Environmental Engineering from MIT. </p> </div>
+	</div>
+	
 	<div class='row'>
-		<div class='span3 offset1 andre box'> <h4> Andre Carrel </h4> <img class="centerimg" src="/static/img/andre.jpg" style="height: 180px"> <p> Andre Carrel is a Ph.D. candidate in the Department of Civil and Environmental Engineering at UC Berkeley, and he is the lead researcher conducting the San Francisco Travel Quality study. A graduate of MIT and ETH Zurich, Andre has previously worked with Transport for London and Deutsche Bahn, the German national rail operator. He is focusing on understanding the complex relationships between transit reliability, the quality of transit services, traveler satisfaction and transit ridership, with the goal of gaining concrete insights into how to best improve public transportation in San Francisco and other major US cities. </p> </div>
-		<div class='span3 joan box'> <h4> Joan Walker </h4> <img class="centerimg" src="/static/img/joan.jpg"> <p> Prof. Joan Walker is Associate Professor in the Department of Civil and Environmental Engineering and a member of the interdisciplinary Global Metropolitan Studies initiative. Her research focus is behavioral modeling, with an expertise in travel behavior, where she works to improve the models that are used for transportation planning, policy, and operations. She received her Bachelor's degree in Civil Engineering from UC Berkeley and her Master's and PhD degrees in Civil and Environmental Engineering from MIT. </p> </div>
-		<div class='span3 raja box'> <h4> Raja Sengupta </h4> <img class="centerimg" src="/static/img/raja.jpg"> <p> Prof. Raja Sengupta is Associate Professor in the Systems Engineering program within Civil and Environmental Engineering, UC Berkeley. He received his PhD from the EECS department, University of Michigan at Ann Arbor. His research interests are in vehicular adhoc networks and unmanned air vehicles, and more recently in mobile computation and surveying systems. </p> </div>
+		<div class='box' style="display:inline-block; float:left; margin-left: 20px;"> <img class="centerimg" src="/static/img/raja.jpg"> </div> <div class="span10"> <h4 class="left"> Raja Sengupta </h4> <p> Prof. Raja Sengupta is Associate Professor in the Systems Engineering program within Civil and Environmental Engineering, UC Berkeley. He received his PhD from the EECS department, University of Michigan at Ann Arbor. His research interests are in vehicular adhoc networks and unmanned air vehicles, and more recently in mobile computation and surveying systems. </p> </div>
 	</div>
 
 {% endblock content %}

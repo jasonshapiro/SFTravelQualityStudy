@@ -6,11 +6,20 @@
 {% block content %}
 
 	<div class="row">
-		<div class="span8 offset2">
-			<h3 class="centertext">CONSENT TO PARTICIPATE IN RESEARCH </h3>
-			<h3> The effect of transit passengers' personal assessment of trip quality on transit rider retention.</h3>
+		<div class="span10 offset1">
+			<h3>
+				Thank you again for your interest in participating. Here’s what you’ll need to do:
+			</h3>
+			<ul>
+				<li> <p> Below is the informed consent form that contains all the details on this study in the standardized format required by the UC Berkeley Committee for the Protection of Human Subjects. Please review it, and if you consent to taking part in this research study, click the button below. </p> </li>
+				<li> <p> You are then taken to a sign-up survey where we ask you for some basic information on you and on your travel habits. We need this information so we can assign you to the appropriate participant group for this study. </p> </li>
+				<li> <p> Once the groups are finalized, you will receive an email with further instructions. </p> </li>
+			</ul>
 			<form action="/survey/"> 
-				<textarea class="surveybox" readonly="readonly">Introduction					
+				<textarea class="surveybox" readonly="readonly">CONSENT TO PARTICIPATE IN RESEARCH
+The effect of transit passengers' personal assessment of trip quality on transit rider retention.
+					
+Introduction					
 My name is Andre Carrel. I am a Ph.D. candidate working with Professors Joan L. Walker and Raja Sengupta in the Department of Civil and Environmental Engineering at the University of California, Berkeley. We are inviting you to participate in a research study that focuses on the quality of public transportation services in San Francisco. Since we are working with transportation authorities in the city and county of San Francisco, your participation will ultimately help improve public transportation here.
 
 Purpose
@@ -80,10 +89,9 @@ If you have any questions or concerns about your rights and treatment as a resea
 Consent
 If you agree to take part in this research, please print a copy of this document to keep for future reference, fill out the following recruitment survey and click “Submit”. Otherwise, please close this browser window.
  </textarea>
-				</br>
-				<input type="checkbox"> I accept the tems and agreements outlined in the above text. 
+
 				</br> </br>
-				<input type="submit"/>
+				<input id="consentbutton" type="submit"/>
 			</form>
 		</div>
 	</div>

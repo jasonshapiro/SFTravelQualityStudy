@@ -10,10 +10,10 @@ urlpatterns = patterns('',
     (r'^about/$', 'info.views.about'),
     (r'^instructions/$', 'info.views.instructions'),
     (r'^team/$', 'info.views.team'),
-    (r'^privacy/$', 'info.views.privacy'),
     (r'^newtomuni/$', 'info.views.new_to_muni'),
     (r'^signup/$', 'info.views.signup'),
     (r'^survey/$', 'info.views.survey'),
+    (r'^contact/$', 'info.views.contact'),
     
     
     # Examples:

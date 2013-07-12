@@ -18,10 +18,6 @@ def team(request):
 	
 	return render_to_response('team.html',context_instance=RequestContext(request))
 
-def privacy(request):
-	
-	return render_to_response('privacy.html',context_instance=RequestContext(request))
-
 def new_to_muni(request):
 	
 	return render_to_response('new_to_muni.html',context_instance=RequestContext(request))
@@ -33,3 +29,7 @@ def signup(request):
 def survey(request):
 	
 	return render_to_response('survey.html',context_instance=RequestContext(request))
+
+def contact(request):
+	
+	return render_to_response('contact.html',context_instance=RequestContext(request))
