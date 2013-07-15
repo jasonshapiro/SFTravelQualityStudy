@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %} Instructions for Participants {% endblock title %}
+
+{% block scripts %}
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function()
+{
+			$('#theresearchers').css({'margin-top': '220px'})
+			$('.1').css({'border-left': 'solid #1b4a79 8px'})
+});
+		</script>
+{% endblock scripts %}
+
+{% block content %}
+
+	<div class="row">
+		<div class="span10 offset1"> 
+			<h2><b>Instructions for downloading and installing the app</b></h2>
+
+<p><br />
+</p>
+
+<p>To download the app, open this link and sign in with the Google account that you use on your Android phone:</p>
+
+<p>{LINK TO APP ON PLAY STORE}</p>
+
+<p><br />
+</p>
+
+<p>Once the app has installed, you need to open it up and sign in with the user name/password we sent you by email.</p>
+
+<p><br />
+</p>
+
+<p>Please don’t forget to keep Wifi, GPS and the data connection on so the app can function correctly.</p>
+
+<p><br />
+</p>
+
+<p><a name="_GoBack"></a>We recommend putting a link to the app on your home screen so you can easily start surveys when you are traveling on Muni. To do that, find (or make) free space on your home screen, tap and hold you finger on it, then select Shortcuts&gt;Applications&gt;{APP NAME}</p>
+
+<p><br />
+</p>
+
+<p>You can find general installation instructions here (it’s a free app):</p>
+
+<p>https://support.google.com/googleplay/answer/113409</p>
+
+<p><br />
+</p>
+
+<p><b>Instructions for uninstalling the app</b></p>
+
+<p><br />
+</p>
+
+<p>You can find these instructions here:</p>
+
+<p>https://support.google.com/googleplay/answer/2521768</p>
+
+		</div>
+	</div>
+	
+{% endblock content %}

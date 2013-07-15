@@ -1,15 +1,75 @@
 {% extends "base.html" %}
 
-{% block title %} Your Privacy {% endblock title %}
+{% block title %} Using Muni {% endblock title %}
+
+{% block scripts %}
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function()
+{
+			$('#theresearchers').css({'margin-top': '220px'})
+			$('.4').css({'border-left': 'solid #1b4a79 8px'})
+});
+		</script>
+{% endblock scripts %}
 
 {% block content %}
 
 	<div class="row">
-		<div class="span5 offset1 linkbox">
-			<h3> New to Muni? </h3>
-			<p> filler text </p>
-		</div>
-		<div class="span2 offset "
+		<div class="span10 offset1">
+			<h2><b>Using Muni</b></h2>
+
+<p><br />
+</p>
+
+<p>If you are new to using Muni, here are a few links to get you started:</p>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>Muni maps can be found at <a href="http://www.sfmta.com/maps">http://www.sfmta.com/maps</a>. In particular, you’ll want to have a look at the system map: <a href="http://www.sfmta.com/maps/muni-system-map">http://www.sfmta.com/maps/muni-system-map</a></p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>To get schedule for your trip and find out what bus goes to destination, we recommend using Google Maps: <a href="http://maps.google.com">http://maps.google.com</a>. Click “Get Directions” on the left, then enter where you are now at the top and where you want to go at the bottom. You can also right-click on the map and select “Directions from here” and “Directions to here”. Then, on the bar with the vehicle symbols, click the transit symbol (the second from the left). This will open another dialogue asking you when you want to arrive or leave. Then hit “Get Directions”. Google will use the latest schedule information.</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>You can also find timetables at <a href="http://www.sfmta.com/getting-around/transit/schedules-trip-planners">http://www.sfmta.com/getting-around/transit/schedules-trip-planners</a> (this links to the 511 website).</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>To get real-time arrival predictions for Muni routes, visit <a href="http://www.nextmuni.com">http://www.nextmuni.com</a>, then select your route, direction and stop.</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>If you are unfamiliar with the Clipper card, here’s a guide: <a href="http://www.clippercard.com/ClipperWeb/downloads/Clipper%20on%20Muni.pdf">http://www.clippercard.com/ClipperWeb/downloads/Clipper%20on%20Muni.pdf</a></p>
+
+</li>
+</ul>
+
 		</div>
 	</div>
 

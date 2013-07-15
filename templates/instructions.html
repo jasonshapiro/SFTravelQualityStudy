@@ -2,38 +2,52 @@
 
 {% block title %} Instructions for Participants {% endblock title %}
 
+{% block scripts %}
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function()
+{
+			$('#togglebottom').css({top: 200});
+});
+		</script>
+{% endblock scripts %}
 
 {% block content %}
 
 	<div class="row">
-		<div class="span9 offset1 centertext instructions"> 
-			<h2> Instructions for Participants: </h2>
-			<h5> This study will be five weeks long. Should you choose to participate, you will be asked to install an application on your smartphone, keep it on at all times, answer surveys, and use public transportation as you normally would. Your responsibilities will change week by week, as follows: </h5>
-			<p> Pre-Study: Indicate consent by filling out the pre-survey located in your invitation email. If you are chosen to participate, you will receive an email from us confirming your enrollment in the study. </p>
-			<p> Week 1: You will receive an email asking that you install our survey application on your smartphone. This application will regularly present surveys for you to fill out and use your location to determine your use of public transit. </p>
-			<p> During week 1 participants will be required to:
+		<div class="span10 offset1"> 
+<p><b>Instructions for survey participants</b></p>
 
-<br>- Complete the travel habit survey contained in the email.
+<p><br />
+</p>
 
-<br>- Install the survey application by following the instructions in the email
+<p>On these pages, you will find:</p>
 
-<br>- Answer the 2-3 surveys presented to them each day, as well as any voluntary surveys that they’d like to fill out. Each survey should take no more than one minute to complete. </p>
+<p><br />
+</p>
 
-			<p> Week 2: The number of survey prompts you will be receiving this week will increase to around 2-3 per day. </p>
-			<p> During week 2 participants will be required to:
+<ul>
+<li><a href="/install_instructions/"><p>Instructions on how to install and uninstall the survey app</p></a>
 
-<br>- Make at least 10 trips on public transportation, with at least two of them being non-commute trips.
+</li>
+<li><a href="/participation_instructions/"><p>Instructions on what your activities during the study will be. This is important, please have a look at it.</p></a>
 
-<br>- Answer the 2-3 surveys presented to them each day, as well as any voluntary surveys that they’d like to fill out. </p>
+</li>
+</ul>
 
-			<p> Weeks 3 and 4: You are again free to choose whichever means of transportation you prefer. The number of survey prompts will decrease to about 1-2 per day, and at the end of week 4, you will receive an email containing a secondary survey about your travel habits. At this point, you may uninstall the app. </p>
-			<p> During weeks 3 and 4 participants will be required to:
+<p><br />
+</p>
 
-<br>- Answer the 1-2 surveys presented to them each day, as well as any voluntary surveys that they’d like to fill out. 
-<br>- Answer the secondary travel habit survey issued via email at the end of week 4. </p>
-			
-			<p> Week 5: You are no longer required to keep the smartphone application installed on your phone. We might contact you with an online follow-up survey with questions on your travel choices since the week during which you used transit. </p>
-			<a href="/newtomuni/"> New to Muni? </a>
+<ul>
+<li><a href="/usingmuni/"><p>If you are new to Muni, we’ve also put together a section with useful links.</p></a>
+
+</li>
+<li><a href="/widget_instructions/"><p>If you were selected to be one of the widget users, here’s how to set it up.</p></a>
+
+</li>
+</ul>
+
 		</div>
 	</div>
 	

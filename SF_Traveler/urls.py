@@ -10,11 +10,13 @@ urlpatterns = patterns('',
     (r'^about/$', 'info.views.about'),
     (r'^instructions/$', 'info.views.instructions'),
     (r'^team/$', 'info.views.team'),
-    (r'^newtomuni/$', 'info.views.new_to_muni'),
+    (r'^usingmuni/$', 'info.views.new_to_muni'),
     (r'^signup/$', 'info.views.signup'),
     (r'^survey/$', 'info.views.survey'),
     (r'^contact/$', 'info.views.contact'),
-    
+    (r'^install_instructions/$', 'info.views.install'),
+    (r'^participation_instructions/$', 'info.views.participation'),
+    (r'^widget_instructions/$', 'info.views.widget'),
     
     # Examples:
     # url(r'^$', 'SF_Traveler.views.home', name='home'),

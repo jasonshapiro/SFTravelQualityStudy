@@ -10,7 +10,11 @@
 		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
 
+	{% block scripts %}
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
 		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/static/js/effects.js"></script>
+	{% endblock scripts %}
 		
 		{% block head %} {% endblock head %}
 		
@@ -34,10 +38,20 @@
 		<ul class="navlist">
 			<a href="/about/"><li> About the Study </li></a>
 			<a id="signup" href="/signup/"><li> Sign Up </li></a>
-			<a href="/instructions/"><li> Instructions for Participants </li></a>
-			<a href="/team/"><li> The Researchers </li></a>
-			<a href="/contact/"><li> Contact </li></a>
-			<a href="/"><li> Home </li></a>
+			<div id="togglediv">
+				<a id="instructions" href="/instructions/"><li> Instructions for Participants </li></a>
+				<div id="hidden">
+					<a class="1" href="/install_instructions/"><li> Installing and Uninstalling the App </li></a>
+					<a class="2" href="/participation_instructions/"><li> Participating in the Study </li></a>
+					<a class="3" href="/widget_instructions/"><li> Installing the Widget </li></a>
+					<a class="4" href="/usingmuni/"><li> Using Muni </li></a>
+				</div>
+			</div>
+			<div id="togglebottom">
+				<a id="theresearchers" href="/team/"><li> The Researchers </li></a>
+				<a href="/contact/"><li> Contact </li></a>
+				<a href="/"><li> Home </li></a>
+			</div>
 		</ul>
 	</div>
 	<div class="content container">

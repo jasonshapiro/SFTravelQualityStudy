@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block title %} Instructions for Participants {% endblock title %}
+
+{% block scripts %}
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function()
+{
+			$('#theresearchers').css({'margin-top': '220px'})
+			$('.2').css({'border-left': 'solid #1b4a79 8px'})
+});
+		</script>
+{% endblock scripts %}
+
+{% block content %}
+
+	<div class="row">
+		<div class="span10 offset1"> 
+<p>In total, you are enrolled in this study for five weeks. If you are reading these instructions we assume that you have already gone through the sign-up process and received an email from me with your user name and password.</p>
+
+<p><br />
+</p>
+
+<p>First, you will need to install the survey app on your Android phone. Instructions can be found here [LINK]. Please open the app after installing it and sign in.</p>
+
+<p><br />
+</p>
+
+<p>To function correctly and to send and receive the surveys, the app needs Wifi, GPS, and the data connection (2G, 3G or 4G – the speed doesn’t really matter) to be permanently enabled. If they are off, a notification will appear reminding you to please enable them again.</p>
+
+<p><br />
+</p>
+
+<p>Here’s what will happen next:</p>
+
+<p><br />
+</p>
+
+<h1>Week 1: {DATES}</h1>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>Just keep traveling as usual.</p>
+
+</li>
+<li><p>You’ll receive an email from with a link to a survey about your opinions on transportation in San Francisco. Please fill it out at your earliest convenience.</p>
+
+</li>
+<li><p>You’ll also receive a few prompts for mini-surveys on your phone; your answers to these surveys will give me some baseline data.</p>
+
+</li>
+<li><p>We will load the free Muni pass onto your Clipper card, and send you a Clipper card if you don’t have one yet.</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<h1>Week 2: {DATES}</h1>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>This is the <b>most important week</b> of the study! Please use <b>Muni for at least 10 single trips</b> during this week, of which 2 should be non-commute (non-work/non-school) trips. A round trip counts as two single trips.</p>
+
+</li>
+<li><p>If you are a regular Muni user and you already make this many trips, just carry on as usual. If you usually use Muni less than that or not at all, we ask you to switch to using Muni for at least this many trips during this week, or more if you wish.</p>
+
+</li>
+<li><p>During this week, you’ll get 2-3 <b>alerts on your phone</b> per day at the times you specified, asking you to fill out a mini-survey on your Muni travel experience.</p>
+
+</li>
+<li><p><a name="_GoBack"></a>In addition, please feel free to <b>manually start a mini-survey</b> whenever you are on Muni. For that, you open the app, click {LABEL}, then {LABEL}.</p>
+
+</li>
+<li><p>If for some reason this week doesn’t work for you as your “transit use” week, please contact me immediately.</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<h1>Weeks 3 and 4: {DATES}</h1>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>You are again free to travel by whichever means you prefer.</p>
+
+</li>
+<li><p>You will still receive occasional prompts for mini-surveys on your phone.</p>
+
+</li>
+<li><p>If you are using Muni during these weeks, and would like to fill out additional mini-surveys about your Muni travel experience by manually starting them on your phone, we would of course appreciate that!</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<h1>At the end of the study:</h1>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>You’ll receive an email with a further link to an online survey. It will very much resemble the first one you took since we would like to see whether any of your opinions changed since the beginning of the study.</p>
+
+</li>
+<li><p>At this point, you can uninstall the app.</p>
+
+</li>
+<li><p>We might contact you after some time again with a follow-up survey to find out whether any of your travel habits changed since the study.</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<p>Again, thank you very much for participating in this study!</p>
+
+<p>- Andre Carrel</p>
+
+		</div>
+	</div>
+	
+{% endblock content %}

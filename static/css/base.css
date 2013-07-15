@@ -40,6 +40,7 @@ body {
 
 .navlist {
 	margin:0;
+	display: inline-block;
 }
 
 #signup {
@@ -75,12 +76,42 @@ body {
 	font-color: white;
 }
 
+#hidden {
+	position: absolute;
+	width: 250px;
+	top: 241px;
+}
+
+#theresearchers {
+	margin-top: 20px;
+}
+
+#togglebottom {
+	position: relative;
+}
+
+#hidden a {
+	width: 180px;
+	margin: 0 0 0 42px;
+	font-size: 1.2em;
+	padding: 10px 0;
+	border-left: solid white 8px;
+}
+
+#hidden a:hover {
+	border-left: solid #1b4a79 8px;
+}
+
 .navmenu a {
 	text-decoration:none;
 }
 
 .navmenu a:hover {
 	text-decoration:none;	
+}
+
+#instructions {
+	margin-bottom: 0;
 }
 
 #homebutton {
@@ -207,7 +238,7 @@ body {
 
 .surveybox {
 	height: 400px;
-	width: 650px;
+	width: 800px;
 }
 
 .centerimg {
@@ -227,4 +258,28 @@ body {
 	border-top: 2px solid gray;
 	text-align: center;
 	float: right;
+}
+
+#consentbutton {
+	height: 50px;
+	width: 350px;
+	font-size: 1.4em;
+	margin: 0 0 0 225px;
+	background-color: #D0D0D0;
+	border-style:solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+#consentbutton:hover {
+	box-shadow: 0px 0px 2px;
+}
+
+a:hover {
+	text-decoration: none;
 }

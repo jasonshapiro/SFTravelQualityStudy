@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %} Instructions for Participants {% endblock title %}
+
+{% block scripts %}
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function()
+{
+			$('#theresearchers').css({'margin-top': '220px'})
+			$('.3').css({'border-left': 'solid #1b4a79 8px'})
+});
+		</script>
+{% endblock scripts %}
+
+{% block content %}
+
+	<div class="row">
+		<div class="span10 offset1"> 
+			<p>If you have been randomly selected to be part of our group of transit riders that receives additional personalized updates via a widget on your smartphone home screen, here’s what we’d like to ask you to do:</p>
+
+<p><br />
+</p>
+
+<ul>
+<li><p>Make space on your Android home screen. You will need space equivalent to one horizontal row of icons.</p>
+
+</li>
+<li><p><a name="_GoBack"></a>Tap and hold down your finger in the available space.</p>
+
+</li>
+<li><p>When the menu opens, select “Widgets”, then select {NAME OF APP}.</p>
+
+</li>
+<li><p>The new widget will appear on your home screen as a black bar.</p>
+
+</li>
+</ul>
+
+<p><br />
+</p>
+
+<p>That’s all you need to do. Over the course of the next days, this widget will automatically update with information on the reliability of the transit trips you have been making.</p>
+
+<p><br />
+</p>
+
+<p>It’s still experimental, so we can’t guarantee that all your transit trips will be identified correctly. If you want to give me feedback on its performance, please feel free to email me. The feedback is not required for participation though.</p>
+
+<p><br />
+</p>
+
+<p>Thank you!</p>
+
+<p><br />
+</p>
+
+		</div>
+	</div>
+	
+{% endblock content %}

@@ -33,3 +33,15 @@ def survey(request):
 def contact(request):
 	
 	return render_to_response('contact.html',context_instance=RequestContext(request))
+
+def install(request):
+	
+	return render_to_response('install_instructions.html',context_instance=RequestContext(request))
+
+def participation(request):
+	
+	return render_to_response('participation_instructions.html',context_instance=RequestContext(request))
+
+def widget(request):
+	
+	return render_to_response('widget_instructions.html',context_instance=RequestContext(request))
