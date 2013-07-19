@@ -3,13 +3,17 @@ $(document).ready(function()
 
 $('#hidden').hide();	
 
-$('#togglediv').hover( function() {
-	$('#togglebottom').filter(':not(:animated)').animate({top: '+=200'}, 200);
-	$('#hidden').filter(':not(:animated)').fadeIn();
-		},
+$('#togglediv').mouseenter( function() {
+///	$('#togglebottom').filter(':not(:animated)').animate({top: '+=200'}, 200);
+///	$('#hidden').filter(':not(:animated)').fadeIn();
+	$('#togglebottom').stop().animate({'marginTop': '200px'}, 200);
+	$('#hidden').fadeIn();
+});
+
+$('.navmenu').mouseleave(
 	function() {
-		$('#togglebottom').animate({top: '0'}, 200);
-		$('#hidden').fadeOut(150);
+		$('#togglebottom').stop().animate({'marginTop': '0'}, 200);
+		$('#hidden').stop().fadeOut(150);
 	}
 );
 });

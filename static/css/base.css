@@ -19,11 +19,10 @@ body {
 }
 
 #ucblogo {
-	background:url("/static/img/ucblogo.bmp") no-repeat;
-	background-color: white;
-	background-size:25% 100%;
+	background:url("/static/img/ucblogo.png") no-repeat;
 	margin: 20px auto 0 auto;
 	width: 600px;
+	height: 150px;
 }
 
 #ucbtext {
@@ -87,7 +86,7 @@ body {
 }
 
 #togglebottom {
-	position: relative;
+	display: inline-block;	
 }
 
 #hidden a {
@@ -205,6 +204,10 @@ body {
 }
 
 .left {
+	text-align: left;
+}
+
+.left h4{
 	text-align: left;
 }
 
